@@ -1,0 +1,8 @@
+<?php
+echo"<h2>PHP SABİTLERİ</h2>"."<br>".
+"Kodunun Bulunduğu yer:".(__LINE__)."<br>".
+"PHP Versiyon:".phpversion()."<br>".
+"Dosyanın Bulunduğu yer:".(__FILE__)."<br>".
+"Sunucu İşletim Sistemi:".(PHP_OS)."<br>".
+"Bu dosyanın bulunduğu alan:".(__DIR__)."<br>";
+?>  
