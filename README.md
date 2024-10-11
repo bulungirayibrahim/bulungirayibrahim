@@ -1,12 +1,8 @@
-- 👋 Hi, I’m @bulungirayibrahim
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-bulungirayibrahim/bulungirayibrahim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+//  Gettype Görüntüsü
+$sayi=55;
+echo"<b>Birinci değişkenin adı:
+\$sayi</b>"."<br>"."Değeri:".$sayi."<br>".
+    "türü:".gettype($sayi)."<br>";
+    echo"<pre>";
+    var_dump($sayi);
+    echo"</pre>"."<br>";
