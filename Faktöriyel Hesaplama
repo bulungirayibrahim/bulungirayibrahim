@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Faktöriyel Hesaplama</title>
+    </head>
+    <body>
+        <form action="" name="form" method="post">
+        Sayı giriniz: <input type="text" name="sayi"> <input type="submit" value="GÖNDER" name="gonder">
+
+        </form>
+    </body>
+</html>
+<?php
+    if(isset($_POST["gonder"])) {
+        $ksayi = $_POST["sayi"];
+       
+        // Sayının negatif olup olmadığını kontrol et
+        if($ksayi < 0) 
+        {
+            echo "Negatif sayıların faktoriyeli bulunmaz.<br>";
+        } 
+        else 
+        {
+            // Faktoriyel hesaplama işlemi
+            $faktoriyel = 1;
+            for($i = 1; $i <= $ksayi; $i++) {
+                $faktoriyel = $faktoriyel * $i;
+            }
+            echo $ksayi . " sayısının faktoriyeli: " . $faktoriyel;
+        }
+    }
+    ?>
